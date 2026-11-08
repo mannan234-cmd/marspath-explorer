@@ -1,0 +1,22 @@
+{
+  "name": "marspath-explorer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node --check src/main.js && node --check src/components/map.js && node --check src/components/mola-elevation.js && node --check src/components/route-planner.js && node --check src/components/location-comparison.js"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "ol": "^10.11.0"
+  },
+  "description": "Interactive Mars exploration workspace using NASA imagery and MOLA elevation data",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
